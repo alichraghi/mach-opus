@@ -1,0 +1,10 @@
+.{
+    .name = "mach-flac",
+    .version = "0.0.0",
+    .dependencies = .{
+        .flac = .{
+            .url = "https://github.com/alichraghi/flac/archive/b0ec7fadb33719e19032a9b97b0e7a2b05f85b7f.tar.gz",
+            .hash = "1220d9a0dbca8eec19489330deaddf4be747a81f3b14a5b19fd2390e8bc5babaaedf",
+        },
+    },
+}
